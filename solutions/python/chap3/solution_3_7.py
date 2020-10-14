@@ -16,8 +16,8 @@ def main():
                 formula += '+'
             formula += s[i+1]
         # 状況確認用
-        # print(bits)
-        # print(formula)
+        print('bit確認用：', bits)
+        print('式確認用', formula)
         # split sum方式
         # ans += sum(map(int, formula.split('+')))
         # 評価方式
