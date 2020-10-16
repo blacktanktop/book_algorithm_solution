@@ -5,7 +5,7 @@
 ## 内容
 * 各章の章末問題のPython実装(solutionsディレクトリ以下)
 * solutions/python/以下に章ごとにPython実装を配置
-* Julia実装もしたい
+* Julia実装もしたい(未定)
 * 出力はただ単に最終的な解を出すのではなくて、理解が深まるように適宜print文を入れることもある。
 
 ## 実行
@@ -13,7 +13,8 @@
 * MacBook Pro (13-inch, Late 2016)
 * Python3.8.2で動くことを確認
   * 多分Python3.5以降なら同じように動くとは思う
-  * 複雑な計算を解く場合などのケースの時に[SymPy](https://github.com/sympy/sympy)(1.6.2)を使うこともある(例：4.3) 。以下のようにしてインストールを行う
+  * 複雑な計算を解く場合などのケースの時に[SymPy](https://github.com/sympy/sympy)(1.6.2)を使うこともある(例：4.3) 。
+  以下のようにしてインストールを行う。
   ```
   pip install sympy
   ```
@@ -45,8 +46,9 @@ python solution_3_1.py < solution_3_1.txt
 
 ## 簡単な解説
 [自分のブログ（くろたんく雑記帳）](https://blacktanktop.hatenablog.com/)に以下を書く。
-* [全体大枠記事]
+* [全体大枠記事](https://blacktanktop.hatenablog.com/entry/2020/10/16/133402)
 * 各章の詳細記事
+  * [【第３章】設計技法(1)：全探索](https://blacktanktop.hatenablog.com/entry/2020/10/16/133149)
 
 ## 書籍のレポジトリ
 [drken1215/book_algorithm_solution](https://github.com/drken1215/book_algorithm_solution)  
