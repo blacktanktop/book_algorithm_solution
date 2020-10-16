@@ -18,7 +18,7 @@ def main():
             return 1
         ans = tribo_rec(n-1) + tribo_rec(n-2) + tribo_rec(n-3)
         return ans
-    print('0以上の整数を標準入力するとTribonacciを出力する')
+    print('0以上の整数を標準入力するとTribonacci sequenceを出力する')
     n = int(input())
     if n >= 0:
         print('Tribonacci list', tribo_list(n))
