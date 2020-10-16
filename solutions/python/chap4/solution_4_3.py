@@ -16,7 +16,7 @@ def main():
     def fib_g(n):
         x = sym.symbols('x', nonnegative=True, integer=True)
         fib = -sym.sqrt(5)*(1/2 - sym.sqrt(5)/2)**n/5 + sym.sqrt(5)*(1/2 + sym.sqrt(5)/2)**n/5
-        # Fibの式のxにnを代入
+        # fibの式のxにnを代入
         formula = fib.subs(x, n)
         ans = int(sym.simplify(formula))
         print(formula, '=', ans)
