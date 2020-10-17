@@ -2,7 +2,8 @@ def main():
     n = int(input())
     abc = [list(map(int, input().split())) for _ in range(n)]
     # dp[i][0or1or2]のような形にして、i+1日目にある行動をした時の最大値という意味
-    # dp[3][2]なら4日目にbをした時の最大値
+    # a, b, c = 0, 1, 2 として扱う
+    # dp[3][2]なら4日目にCをした時の最大値
     # dpの枠の用意
     dp = [[0] * 3 for _ in range(n)]
     # dpの初期値
@@ -20,6 +21,5 @@ def main():
     # dpの最後の値の最大値が幸福度最大
     ans = max(dp[n-1])
     print(n, '日間の幸福度の最大値', ans)
-
 if __name__ == '__main__':
     main()

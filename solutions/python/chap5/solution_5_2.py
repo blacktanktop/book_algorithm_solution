@@ -12,12 +12,14 @@ def main():
         for j in range(w+1):
             if dp[i][j]:
                 dp[i+1][j] = dp[i][j]
+                print(i+1, '個目までの整数のいくつかで', j, 'が作れるか')
+                print(dp)
             if j >= a[i] and dp[i][j-a[i]]:
                     # a[i]を選んで成立するには
                     # dp[i][j-a[i]]がTrueである必要がある
                     dp[i+1][j] = dp[i][j-a[i]]
                     print(i+1, '個目までの整数のいくつかで', j, 'が作れるか')
-                    print('選ぶ', dp)
+                    print(dp)
     if dp[n][w]:
         print('Yes')
     else:
