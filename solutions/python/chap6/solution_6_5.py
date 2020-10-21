@@ -23,6 +23,7 @@ def main():
         else:
             l = m
     # 全パターンを順番に並べた
+    print('全パターンを順番に並べると')
     print(sorted(a * b for a in A for b in B))
     # 最後は右を答える
     print('小さい方から', k, '番目の値', r)
