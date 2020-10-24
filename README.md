@@ -49,6 +49,10 @@ python solution_3_1.py < solution_3_1.txt
 * [全体大枠記事](https://blacktanktop.hatenablog.com/entry/2020/10/16/133402)
 * 各章の詳細記事
   * [【第３章】設計技法(1)：全探索](https://blacktanktop.hatenablog.com/entry/2020/10/16/133149)
+  * [【第４章】 設計技法(2)：再帰と分割統治法](https://blacktanktop.hatenablog.com/entry/2020/10/18/203456)
+  * [【第５章】 設計技法(3)：動的計画法](https://blacktanktop.hatenablog.com/entry/2020/10/20/075549)
+  * [【第６章】 設計技法(4)：二分探索法](https://blacktanktop.hatenablog.com/entry/2020/10/21/100500)
+  * [【第７章】 設計技法(5)：貪欲法](https://blacktanktop.hatenablog.com/entry/2020/10/24/144929)
 
 ## 書籍のレポジトリ
 [drken1215/book_algorithm_solution](https://github.com/drken1215/book_algorithm_solution)  
